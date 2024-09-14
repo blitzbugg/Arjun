@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/*.{html,js}"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      colors: {
-        'arjun-violet': '#8F00FF;',
-      },
+      fontFamily: {
+        'main-font': '"Bebas Neue"',
+        'sub-font': '"Be Vietnam Pro"',
+      }
     },
   },
   plugins: [],
